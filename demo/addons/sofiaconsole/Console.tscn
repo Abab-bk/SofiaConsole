@@ -154,7 +154,6 @@ size_flags_horizontal = 3
 theme_override_constants/separation = 0
 
 [node name="SuggestionsPanel" type="PanelContainer" parent="ConsoleCanvas/Background/MarginContainer/Window/Content/History"]
-visible = false
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_wpanm")
 
