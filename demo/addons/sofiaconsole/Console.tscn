@@ -40,7 +40,7 @@ content_margin_bottom = 10.0
 bg_color = Color(0.133333, 0.133333, 0.133333, 0)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wpanm"]
-bg_color = Color(0, 0, 0, 1)
+bg_color = Color(0.0900985, 0.0900985, 0.0900985, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_25al0"]
 content_margin_left = 10.0
@@ -154,6 +154,7 @@ size_flags_horizontal = 3
 theme_override_constants/separation = 0
 
 [node name="SuggestionsPanel" type="PanelContainer" parent="ConsoleCanvas/Background/MarginContainer/Window/Content/History"]
+visible = false
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_wpanm")
 
